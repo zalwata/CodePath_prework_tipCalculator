@@ -101,8 +101,9 @@
 			children = (
 				E6EF6DA125A547A6006265D4 /* AppDelegate.swift */,
 				E6EF6DA325A547A6006265D4 /* SceneDelegate.swift */,
-				E6EF6DA525A547A6006265D4 /* ViewController.swift */,
-				E6EF6DA725A547A6006265D4 /* Main.storyboard */,
+				E6EF6DDF25A54800006265D4 /* Model */,
+				E6EF6DD425A547B7006265D4 /* View */,
+				E6EF6DDC25A547D3006265D4 /* Controller */,
 				E6EF6DAA25A547A7006265D4 /* Assets.xcassets */,
 				E6EF6DAC25A547A7006265D4 /* LaunchScreen.storyboard */,
 				E6EF6DAF25A547A7006265D4 /* Info.plist */,
@@ -126,6 +127,29 @@
 				E6EF6DC525A547A8006265D4 /* Info.plist */,
 			);
 			path = prework_tipCalculator_AryumJeonUITests;
+			sourceTree = "<group>";
+		};
+		E6EF6DD425A547B7006265D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6EF6DA725A547A6006265D4 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6EF6DDC25A547D3006265D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6EF6DA525A547A6006265D4 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6EF6DDF25A54800006265D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
