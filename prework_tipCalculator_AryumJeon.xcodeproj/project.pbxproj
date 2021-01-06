@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6EF6DA225A547A6006265D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF6DA125A547A6006265D4 /* AppDelegate.swift */; };
+		E6EF6DA425A547A6006265D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF6DA325A547A6006265D4 /* SceneDelegate.swift */; };
+		E6EF6DA625A547A6006265D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF6DA525A547A6006265D4 /* ViewController.swift */; };
+		E6EF6DA925A547A6006265D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6EF6DA725A547A6006265D4 /* Main.storyboard */; };
+		E6EF6DAB25A547A7006265D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6EF6DAA25A547A7006265D4 /* Assets.xcassets */; };
+		E6EF6DAE25A547A7006265D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6EF6DAC25A547A7006265D4 /* LaunchScreen.storyboard */; };
+		E6EF6DB925A547A7006265D4 /* prework_tipCalculator_AryumJeonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF6DB825A547A7006265D4 /* prework_tipCalculator_AryumJeonTests.swift */; };
+		E6EF6DC425A547A8006265D4 /* prework_tipCalculator_AryumJeonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF6DC325A547A8006265D4 /* prework_tipCalculator_AryumJeonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6EF6DB525A547A7006265D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6EF6D9625A547A6006265D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6EF6D9D25A547A6006265D4;
+			remoteInfo = prework_tipCalculator_AryumJeon;
+		};
+		E6EF6DC025A547A8006265D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6EF6D9625A547A6006265D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6EF6D9D25A547A6006265D4;
+			remoteInfo = prework_tipCalculator_AryumJeon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6EF6D9E25A547A6006265D4 /* prework_tipCalculator_AryumJeon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prework_tipCalculator_AryumJeon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EF6DA125A547A6006265D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6EF6DA325A547A6006265D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E6EF6DA525A547A6006265D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6EF6DA825A547A6006265D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6EF6DAA25A547A7006265D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6EF6DAD25A547A7006265D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6EF6DAF25A547A7006265D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6EF6DB425A547A7006265D4 /* prework_tipCalculator_AryumJeonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prework_tipCalculator_AryumJeonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EF6DB825A547A7006265D4 /* prework_tipCalculator_AryumJeonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prework_tipCalculator_AryumJeonTests.swift; sourceTree = "<group>"; };
+		E6EF6DBA25A547A7006265D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6EF6DBF25A547A8006265D4 /* prework_tipCalculator_AryumJeonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prework_tipCalculator_AryumJeonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EF6DC325A547A8006265D4 /* prework_tipCalculator_AryumJeonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prework_tipCalculator_AryumJeonUITests.swift; sourceTree = "<group>"; };
+		E6EF6DC525A547A8006265D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6EF6D9B25A547A6006265D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF6DB125A547A7006265D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF6DBC25A547A8006265D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6EF6D9525A547A6006265D4 = {
+			isa = PBXGroup;
+			children = (
+				E6EF6DA025A547A6006265D4 /* prework_tipCalculator_AryumJeon */,
+				E6EF6DB725A547A7006265D4 /* prework_tipCalculator_AryumJeonTests */,
+				E6EF6DC225A547A8006265D4 /* prework_tipCalculator_AryumJeonUITests */,
+				E6EF6D9F25A547A6006265D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6EF6D9F25A547A6006265D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6EF6D9E25A547A6006265D4 /* prework_tipCalculator_AryumJeon.app */,
+				E6EF6DB425A547A7006265D4 /* prework_tipCalculator_AryumJeonTests.xctest */,
+				E6EF6DBF25A547A8006265D4 /* prework_tipCalculator_AryumJeonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6EF6DA025A547A6006265D4 /* prework_tipCalculator_AryumJeon */ = {
+			isa = PBXGroup;
+			children = (
+				E6EF6DA125A547A6006265D4 /* AppDelegate.swift */,
+				E6EF6DA325A547A6006265D4 /* SceneDelegate.swift */,
+				E6EF6DA525A547A6006265D4 /* ViewController.swift */,
+				E6EF6DA725A547A6006265D4 /* Main.storyboard */,
+				E6EF6DAA25A547A7006265D4 /* Assets.xcassets */,
+				E6EF6DAC25A547A7006265D4 /* LaunchScreen.storyboard */,
+				E6EF6DAF25A547A7006265D4 /* Info.plist */,
+			);
+			path = prework_tipCalculator_AryumJeon;
+			sourceTree = "<group>";
+		};
+		E6EF6DB725A547A7006265D4 /* prework_tipCalculator_AryumJeonTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6EF6DB825A547A7006265D4 /* prework_tipCalculator_AryumJeonTests.swift */,
+				E6EF6DBA25A547A7006265D4 /* Info.plist */,
+			);
+			path = prework_tipCalculator_AryumJeonTests;
+			sourceTree = "<group>";
+		};
+		E6EF6DC225A547A8006265D4 /* prework_tipCalculator_AryumJeonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6EF6DC325A547A8006265D4 /* prework_tipCalculator_AryumJeonUITests.swift */,
+				E6EF6DC525A547A8006265D4 /* Info.plist */,
+			);
+			path = prework_tipCalculator_AryumJeonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6EF6D9D25A547A6006265D4 /* prework_tipCalculator_AryumJeon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EF6DC825A547A8006265D4 /* Build configuration list for PBXNativeTarget "prework_tipCalculator_AryumJeon" */;
+			buildPhases = (
+				E6EF6D9A25A547A6006265D4 /* Sources */,
+				E6EF6D9B25A547A6006265D4 /* Frameworks */,
+				E6EF6D9C25A547A6006265D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prework_tipCalculator_AryumJeon;
+			productName = prework_tipCalculator_AryumJeon;
+			productReference = E6EF6D9E25A547A6006265D4 /* prework_tipCalculator_AryumJeon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6EF6DB325A547A7006265D4 /* prework_tipCalculator_AryumJeonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EF6DCB25A547A8006265D4 /* Build configuration list for PBXNativeTarget "prework_tipCalculator_AryumJeonTests" */;
+			buildPhases = (
+				E6EF6DB025A547A7006265D4 /* Sources */,
+				E6EF6DB125A547A7006265D4 /* Frameworks */,
+				E6EF6DB225A547A7006265D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6EF6DB625A547A7006265D4 /* PBXTargetDependency */,
+			);
+			name = prework_tipCalculator_AryumJeonTests;
+			productName = prework_tipCalculator_AryumJeonTests;
+			productReference = E6EF6DB425A547A7006265D4 /* prework_tipCalculator_AryumJeonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6EF6DBE25A547A8006265D4 /* prework_tipCalculator_AryumJeonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EF6DCE25A547A8006265D4 /* Build configuration list for PBXNativeTarget "prework_tipCalculator_AryumJeonUITests" */;
+			buildPhases = (
+				E6EF6DBB25A547A8006265D4 /* Sources */,
+				E6EF6DBC25A547A8006265D4 /* Frameworks */,
+				E6EF6DBD25A547A8006265D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6EF6DC125A547A8006265D4 /* PBXTargetDependency */,
+			);
+			name = prework_tipCalculator_AryumJeonUITests;
+			productName = prework_tipCalculator_AryumJeonUITests;
+			productReference = E6EF6DBF25A547A8006265D4 /* prework_tipCalculator_AryumJeonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6EF6D9625A547A6006265D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					E6EF6D9D25A547A6006265D4 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					E6EF6DB325A547A7006265D4 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E6EF6D9D25A547A6006265D4;
+					};
+					E6EF6DBE25A547A8006265D4 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E6EF6D9D25A547A6006265D4;
+					};
+				};
+			};
+			buildConfigurationList = E6EF6D9925A547A6006265D4 /* Build configuration list for PBXProject "prework_tipCalculator_AryumJeon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6EF6D9525A547A6006265D4;
+			productRefGroup = E6EF6D9F25A547A6006265D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6EF6D9D25A547A6006265D4 /* prework_tipCalculator_AryumJeon */,
+				E6EF6DB325A547A7006265D4 /* prework_tipCalculator_AryumJeonTests */,
+				E6EF6DBE25A547A8006265D4 /* prework_tipCalculator_AryumJeonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6EF6D9C25A547A6006265D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EF6DAE25A547A7006265D4 /* LaunchScreen.storyboard in Resources */,
+				E6EF6DAB25A547A7006265D4 /* Assets.xcassets in Resources */,
+				E6EF6DA925A547A6006265D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF6DB225A547A7006265D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF6DBD25A547A8006265D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6EF6D9A25A547A6006265D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EF6DA625A547A6006265D4 /* ViewController.swift in Sources */,
+				E6EF6DA225A547A6006265D4 /* AppDelegate.swift in Sources */,
+				E6EF6DA425A547A6006265D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF6DB025A547A7006265D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EF6DB925A547A7006265D4 /* prework_tipCalculator_AryumJeonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF6DBB25A547A8006265D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EF6DC425A547A8006265D4 /* prework_tipCalculator_AryumJeonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6EF6DB625A547A7006265D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6EF6D9D25A547A6006265D4 /* prework_tipCalculator_AryumJeon */;
+			targetProxy = E6EF6DB525A547A7006265D4 /* PBXContainerItemProxy */;
+		};
+		E6EF6DC125A547A8006265D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6EF6D9D25A547A6006265D4 /* prework_tipCalculator_AryumJeon */;
+			targetProxy = E6EF6DC025A547A8006265D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6EF6DA725A547A6006265D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6EF6DA825A547A6006265D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6EF6DAC25A547A7006265D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6EF6DAD25A547A7006265D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6EF6DC625A547A8006265D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6EF6DC725A547A8006265D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6EF6DC925A547A8006265D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = prework_tipCalculator_AryumJeon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodePath.prework-tipCalculator-AryumJeon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6EF6DCA25A547A8006265D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = prework_tipCalculator_AryumJeon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodePath.prework-tipCalculator-AryumJeon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6EF6DCC25A547A8006265D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = prework_tipCalculator_AryumJeonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodePath.prework-tipCalculator-AryumJeonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prework_tipCalculator_AryumJeon.app/prework_tipCalculator_AryumJeon";
+			};
+			name = Debug;
+		};
+		E6EF6DCD25A547A8006265D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = prework_tipCalculator_AryumJeonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodePath.prework-tipCalculator-AryumJeonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prework_tipCalculator_AryumJeon.app/prework_tipCalculator_AryumJeon";
+			};
+			name = Release;
+		};
+		E6EF6DCF25A547A8006265D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = prework_tipCalculator_AryumJeonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodePath.prework-tipCalculator-AryumJeonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = prework_tipCalculator_AryumJeon;
+			};
+			name = Debug;
+		};
+		E6EF6DD025A547A8006265D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = prework_tipCalculator_AryumJeonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodePath.prework-tipCalculator-AryumJeonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = prework_tipCalculator_AryumJeon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6EF6D9925A547A6006265D4 /* Build configuration list for PBXProject "prework_tipCalculator_AryumJeon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EF6DC625A547A8006265D4 /* Debug */,
+				E6EF6DC725A547A8006265D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EF6DC825A547A8006265D4 /* Build configuration list for PBXNativeTarget "prework_tipCalculator_AryumJeon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EF6DC925A547A8006265D4 /* Debug */,
+				E6EF6DCA25A547A8006265D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EF6DCB25A547A8006265D4 /* Build configuration list for PBXNativeTarget "prework_tipCalculator_AryumJeonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EF6DCC25A547A8006265D4 /* Debug */,
+				E6EF6DCD25A547A8006265D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EF6DCE25A547A8006265D4 /* Build configuration list for PBXNativeTarget "prework_tipCalculator_AryumJeonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EF6DCF25A547A8006265D4 /* Debug */,
+				E6EF6DD025A547A8006265D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6EF6D9625A547A6006265D4 /* Project object */;
+}
